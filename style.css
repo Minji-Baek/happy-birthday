@@ -1,0 +1,97 @@
+@import './reset.css';
+@font-face {
+  font-family: 'KOTRAHOPE';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'KyoboHandwriting2021sjy';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KyoboHandwriting2021sjy.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'KyoboHandwriting2021sjy', 'KOTRAHOPE', Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+}
+
+.wrapper {
+  position: relative;
+  /* min-height: 1000vh; */
+}
+
+header {
+  padding: 100px 24px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: left;
+  font-family: 'KOTRAHOPE';
+}
+.text-wrapper{
+  font-size: 15px;
+  font-weight: lighter;
+  /* color: white; */
+  /* z-index: -1; */
+  padding-bottom: 50px;
+}
+
+
+.text-container{
+  margin-bottom: 500px;
+  padding: 10px 10px;
+  border: 3px solid #9c60a8;
+  box-sizing: border-box;
+  width: 75%;
+  background-color: #ddabe7;
+  line-height: 1.5;
+}
+
+.text-container2{
+  margin-bottom: 500px;
+  padding: 10px 10px;
+  border: 3px solid #9c9e3c;
+  box-sizing: border-box;
+  width: 75%;
+  background-color: #ebe98c;
+  line-height: 1.5;
+}
+
+.text-container p, .text-container2 p{
+  line-height: 1.5;
+}
+
+#text-loading{
+  padding: 50px;
+  margin-top: 500px;
+}
+
+#text-26{
+  margin-bottom: 500px;
+}
+
+.image-wrapper {
+  display: none;
+}
+.img {
+  display: none;
+}
+

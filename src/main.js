@@ -88,7 +88,7 @@ async function init(){
     geometry.setAttribute('color', new THREE.BufferAttribute(colors, 3))
   
     const textureLoader = new THREE.TextureLoader();
-    const texture = textureLoader.load('/assets/textures/particle.png');
+    const texture = textureLoader.load('./assets/textures/particle.png');
     const material = new THREE.PointsMaterial({
       size: 0.1,
       alphaMap: texture,

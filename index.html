@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Happy BirthDay JunTory</title>
   </head>
+  <script type="importmap">
+    {
+        "imports": {
+            "three": "../three/build/three.module.js",
+            "three/examples/jsm/controls/OrbitControls":"../three/examples/jsm/controls/OrbitControls.js",
+        }
+    }
+</script>
   <body>
     <div class="img-wrapper" >
       <img src="./assets/images/memory1.jpg"  class="img"/>
@@ -97,13 +105,6 @@
     </div>
    
     <script type="module" src="./src/main.js"></script>
-    <script type="importmap">
-      {
-          "imports": {
-              "three": "../three/build/three.module.js",
-              "three/examples/jsm/controls/OrbitControls":"../three/examples/jsm/controls/OrbitControls.js",
-          }
-      }
-  </script>
+   
   </body>
 </html>

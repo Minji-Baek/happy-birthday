@@ -2,9 +2,6 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import {ScrollTrigger} from 'gsap/ScrollTrigger';
 import gsap from 'gsap';
-import GUI from 'lil-gui';
-import {FontLoader} from 'three/examples/jsm/loaders/FontLoader';
-import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader.js';
 
 
 window.addEventListener('load', async ()=> {
